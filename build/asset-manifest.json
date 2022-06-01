@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.414cb284.chunk.css",
+    "main.js": "/static/js/main.34bb3573.chunk.js",
+    "main.js.map": "/static/js/main.34bb3573.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3f1b9875.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3f1b9875.js.map",
+    "static/css/2.68865efb.chunk.css": "/static/css/2.68865efb.chunk.css",
+    "static/js/2.9d337cdc.chunk.js": "/static/js/2.9d337cdc.chunk.js",
+    "static/js/2.9d337cdc.chunk.js.map": "/static/js/2.9d337cdc.chunk.js.map",
+    "static/js/3.58b9763c.chunk.js": "/static/js/3.58b9763c.chunk.js",
+    "static/js/3.58b9763c.chunk.js.map": "/static/js/3.58b9763c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.68865efb.chunk.css.map": "/static/css/2.68865efb.chunk.css.map",
+    "static/css/main.414cb284.chunk.css.map": "/static/css/main.414cb284.chunk.css.map",
+    "static/js/2.9d337cdc.chunk.js.LICENSE.txt": "/static/js/2.9d337cdc.chunk.js.LICENSE.txt",
+    "static/media/TopsaleLogo.f5719d6d.png": "/static/media/TopsaleLogo.f5719d6d.png",
+    "static/media/appstore.e5f6e905.png": "/static/media/appstore.e5f6e905.png",
+    "static/media/logo.0da36b97.png": "/static/media/logo.0da36b97.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f1b9875.js",
+    "static/css/2.68865efb.chunk.css",
+    "static/js/2.9d337cdc.chunk.js",
+    "static/css/main.414cb284.chunk.css",
+    "static/js/main.34bb3573.chunk.js"
+  ]
+}
