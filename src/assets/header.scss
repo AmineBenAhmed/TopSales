@@ -1,0 +1,28 @@
+.download-apps {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: space-around;
+  width: 200px;
+  height: 40px;
+  .download-text {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+
+  .platforms-logos {
+    display: flex;
+    justify-content: space-around;
+      a {
+
+    text-decoration: none;
+    img {
+      height: 30px;
+      border: 1px solid white;
+      border-radius: 8px;
+    }
+  }
+  }
+
+}

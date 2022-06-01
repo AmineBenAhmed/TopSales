@@ -1,0 +1,219 @@
+:root{
+  --scroll-bar-color: #870D4F ;
+  --scroll-bar-bg-color: #FFFFFF ;
+}
+
+.sidebar{
+    .section{
+      overflow-y: scroll;
+      scrollbar-width: thin;
+      scrollbar-color: var(--scroll-bar-color) var(--scroll-bar-bg-color);
+      height: 100%;
+    }
+    /* Works on Chrome, Edge, and Safari */
+    .section::-webkit-scrollbar {
+        width: 8px;
+        height: 12px;
+    }
+    .section::-webkit-scrollbar-track {
+        background: var(--scroll-bar-bg-color);
+    }
+    .section::-webkit-scrollbar-thumb {
+        background-color: var(--scroll-bar-color);
+        border-radius: 20px;
+        border: 3px solid var(--scroll-bar-bg-color); 
+    }
+    .pro-sidebar {
+      color: #8692A6;
+      height: calc(100vh - 80px);
+      width: 280px;
+      min-width: 280px;
+      text-align: left;
+      transition: width, left, right, 0.3s;
+      position: relative;
+      z-index: 980;
+      padding-right: 5px;
+      background-color: var(--scroll-bar-bg-color);
+    }
+    .pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout {
+      height: 100%;
+      overflow-y: auto;
+      overflow-x: hidden;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      z-index: 101;
+      .btn-toggle-sidebar {
+        &:focus,
+        &:hover,
+        &:active {
+          box-shadow: none;
+        }
+      }
+    }
+    .pro-sidebar > .pro-sidebar-inner {
+      background: var(--scroll-bar-bg-color);
+      height: 100%;
+      position: relative;
+      z-index: 101;
+    }
+    .labelslider{
+      line-height: 17px;
+      margin-left: 20px;
+      font-size: 19px;
+      font-weight: 600;
+      text-transform: capitalize;
+      color: #495057;
+    }
+    
+    
+    .colorsubmenu:hover{
+      color:var(--scroll-bar-bg-color);
+      background-color: #870D4F ;
+      display:block;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 550;
+    }
+    .widthdropdown{
+      width: 260px;
+    }
+    .font-sizetitel{
+    
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #202D59;
+    }
+    .font-sizedoc{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    }
+    .documentrestant{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    }
+    .suborganisation_icon{
+      color: #8692a6;
+    }
+    //hover color
+    .colorsubmenu:hover .icon-organisation:before , .colorsubmenu:hover .icon-profil:before  , 
+    .colorsubmenu:hover .fa-chevron-up::before
+    {
+     color: var(--active-bar-color);
+    }
+  
+ 
+  
+  
+    //end active color
+    .dropdown-item:hover, .dropdown-item:focus{
+      background-color: transparent;
+    }
+    
+    .colorsubmenu{
+      display: block;
+      padding: 0.85rem;
+      font-style: normal;
+      font-weight: 550;
+      font-size: 14px;
+      line-height: 17px;
+      margin: 8px;
+      color: #6c757d;
+    }
+    
+    .active{
+      color: white;
+      background-color: #800c4a88;
+      display:block;
+      border-radius: 4px;
+    }
+    
+      @media(max-width : 800px){
+      
+        
+          min-width: 280px;
+      
+        .pro-sidebar {
+          height:  100vh;
+          width: 230px;
+        }
+        .pro-sidebar.md {
+          position: fixed;
+          left: 0px;
+          height: 100vh;
+          top:80px;
+          }
+          .ml-3{
+            margin-left: 0.05rem !important;
+          }
+      }
+      @media (max-width: 576px) {
+        .btn-toggle {
+          display: flex;
+        }
+    .pro-sidebar{
+      min-width: 200px;
+    }
+    .widthdropdown{
+      width: 220px;
+    }
+        &.rtl {
+          .btn-toggle {
+            margin-left: auto;
+          }
+        }
+        .pro-sidebar.md {
+          position: fixed;
+          left: 0px;
+          top:0px;
+          transition: 2s;
+    
+          }
+      }
+    
+    
+    
+    
+    .with-150 {
+      width: 120px;
+      
+    }
+    .dropdown-menu{
+    border-top: none;
+    }
+    
+    .rotate {
+      position: absolute;
+      width: 8px;
+    height: 3.54px;
+    left: 240px;
+    
+    z-index: 100;
+    }
+    .module {
+      stroke: black;
+    }
+    .ararrotate {
+      position: absolute;
+      width: 8px;
+    height: 3.54px;
+    left: 15px;
+    
+    z-index: 100;
+    }
+    .show .rotate , .show .ararrotate {
+     top:10px ;
+    transform: rotate(-180deg);
+    
+    }
+    
+    
+    
+   
+  
+    }

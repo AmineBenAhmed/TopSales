@@ -1,0 +1,91 @@
+:root{
+    --scroll-bar-color: #870D4F ;
+    --scroll-bar-bg-color: #FFFFFF ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.pageHome {
+    .slide {
+        .carousel-indicators {
+            li {
+                &.active {
+                    background-color: #870d4eb0;
+                }
+            }
+        }
+    }
+
+    .owl-carousel {
+        .owl-dots {
+            .owl-dot {
+                &.active {
+                    span {
+                        background-color: #870d4eb0;
+                    }
+                }
+            }
+        }
+    }
+    .link-categ {
+        .card-categ {
+            background-position: center;
+            .body-categ {
+                position: relative;
+                .title-categ {
+                    width: fit-content;
+                    border-radius: 3px;
+                    background: #6c757de0 !important;
+                    padding: 6px 5px 7px !important;
+                    font-size: 16px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    position: absolute;
+                    bottom: 0;  
+                }
+            }
+        }
+    }
+
+    .listads {
+        .selectads {
+            box-shadow: 3px 1px 5px 0px #0000004d !important;
+            -webkit-box-shadow: 3px 1px 5px 0px #0000004d !important;
+            -moz-box-shadow: 3px 1px 5px 0px #0000004d !important;
+            border: 1px solid #d4cbca;
+            border-radius: 3px;
+            padding: 8px 6px;
+            &:focus {
+                border: 1px solid #d4cbca !important;
+            }
+        }
+    }
+
+    .content-all-ads {
+        .column-ads {
+            .cardAds {
+                border: 1px solid #dee2e6;
+                .linkImgAds {
+                    .imgAds {
+                        height: 290px;
+                    }
+                }
+
+                .bodyAds {
+                    .linkfooterads {
+                        text-decoration: none !important;
+                        .titleads {
+                            strong {
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+
+                    .priceAds {
+
+                    }
+                }
+            }
+        }
+    }
+}

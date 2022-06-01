@@ -1,0 +1,102 @@
+:root{
+    --scroll-bar-color: #870D4F ;
+    --scroll-bar-bg-color: #FFFFFF ;
+}
+
+
+.footer-app {
+    background-color: #444;
+
+    hr {
+        background-color: #7a7a7a6b;
+    }
+    .content-footer {
+        padding: 20px 0;
+        .column-links {
+            .list-link {
+                @media(max-width: 767px) {
+                    padding: 0;
+                }
+                li {
+                    a {
+                        color: #fff;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 2;
+                        text-decoration: none;
+                        transition: all 0.3s;
+                        &:hover {
+                            color: #b11066;
+                        }
+                    }
+                }
+            }
+        }
+
+        .column-all-social {
+            .row-social {
+                .column-social {
+                    .list-social {
+                        padding: 0;
+                        li {
+                            display: flex;
+                            align-items: center;
+                            color: #fff;
+                            font-size: 16px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+
+        .column-desc {
+            .desc-footer {
+                border: 1px solid #6262626b !important;
+                background-color: transparent;
+                color: #fff;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .bottom-footer {
+        align-items: center;
+        .column-copy {
+            @media(max-width: 767px) {
+                text-align: center;
+                margin-bottom: 15px;
+            }
+            .copy-footer {
+                color: #fff;
+                font-size: 14px;
+                margin: 0;
+            }
+        }
+ 
+        .column-store {
+            display: flex;
+            align-items: center;
+            .box-title-store {
+                @media(max-width: 767px) {
+                    display: none;
+                }
+                .title-store {
+                    color: #fff;
+                    font-size: 16px;
+                    padding: 0 13px;
+                }
+            }
+
+            .box-btn-store {
+                a {
+                    img {
+                        border: 1px solid #fff;
+                        border-radius: 3px;
+                        margin: 0 5px;
+                    }
+                }
+            }
+        }
+    }
+}
